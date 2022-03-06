@@ -1,10 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>HTML Links</title>
+    <style>
+        body {
+            color: blue;
+        }
+        input {
+            border: inset;
+        }
+    </style>
 </head>
 <body>
-$END$
+    <form action="simpleForm3" >
+        <table bgcolor="#fffacd">
+            <tr bgcolor="#7fffd4">
+                <th>Đăng Ký Học Viên</th>
+                <th colspan="3"></th>
+            </tr>
+            <tr>
+                <td>Họ Và Tên</td>
+                <td colspan="2"><input type="text" name="yourname"></td>
+            </tr>
+            <tr>
+                <td>Ngày Sinh</td>
+                <td colspan="2"><input type="text" name="date"></td>
+            </tr>
+            <tr>
+                <td>Giới Tính</td>
+                <td colspan="2"><input type="radio" name="rd">Nam<input type="radio" name="rd">Nữ</td>
+            </tr>
+            <tr>
+                <td>Địa Chỉ</td>
+                <td colspan="2"><input type="text" name="address"></td>
+            </tr>
+            <tr>
+                <td>Lớp</td>
+                <td colspan="2"><select name="Class" >
+                    <option value="Choice">-Chọn Lớp-</option>
+                    <option value="C0222H1">C0222H1</option>
+                    <option value="C0222J1">C0222J1</option>
+                    <option value="C0222H2">C0222H2</option>
+                    <option value="C0322H1">C0322H1</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td colspan="2"><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td>Điện Thoại</td>
+                <td colspan="2"><input type="text" name="phone"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="Submit Form" value="Đăng Kí"></td>
+                <td><input type="reset" name="reset Form" value="Nhập Lại"></td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
 </body>
 </html>

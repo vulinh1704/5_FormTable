@@ -1,10 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>HTML Links</title>
 </head>
 <body>
-$END$
+    <form action="simpleForm2.html" method="get" style="font-family:monaco">
+        <table frame="border" >
+            <tr bgcolor="#ff4500">
+                <th colspan="4" style="color:white">SỞ THÍCH CỦA BẠN</th>
+            </tr>
+            <tr>
+                <td style="color:blue">Họ Và Tên</td>
+                <td colspan="3"><input type="text" name="yourname" size="22" style="border:inset"/></td>
+            </tr>
+            <tr>
+                <td style="color:blue">Email</td>
+                <td colspan="3"><input type="text" name="email" size="17" style="border:inset"/></td>
+            </tr>
+            <tr>
+                <td style="color:blue">Sở Thích</td>
+                <td>
+                    <input type="checkbox" name="hoppy"/><span style="color:#ff4500">Thể Thao</span><br/>
+                    <input type="checkbox" name="hoppy"/><span style="color:#ff4500">Lướt Wed</span><br/>
+                    <input type="checkbox" name="hoppy"/><span style="color:#ff4500">Du Lịch</span><br/>
+                </td>
+                <td><input type="checkbox" name="hoppy"/><span style="color:#ff4500">Âm Nhạc</span><br/>
+                    <input type="checkbox" name="hoppy"/><span style="color:#ff4500">Chơi Game</span><br/>
+                    <br/>
+                </td>
+                <td><input type="checkbox" name="hoppy"/><span style="color:#ff4500">Đọc Sách</span><br/>
+                    <input type="checkbox" name="hoppy"/><span style="color:#ff4500">Điện Ảnh</span><br/>
+                    <br/>
+                </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td ><input type="submit" name="send" value="Gửi Thông Tin" style="border:inset"/></td>
+                <td><input type="reset" name="resetForm" value="Nhập Lại" style="border:inset"/></td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
 </body>
 </html>
