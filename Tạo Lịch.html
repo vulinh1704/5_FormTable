@@ -5,26 +5,32 @@
     <title>HTML links</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <style>
         table {
             text-align: center;
-            font-family: 'Moo Lah Lah', cursive;
+            font-family: 'Itim', cursive;
         }
          table ,th ,td {
              border-collapse: collapse;
              border: solid 3px black;
              border: inset;
          }
+        sub {
+            font-size: 12px;
+        }
+        .top td {
+            border : 0px;
+        }
     </style>
 </head>
 <body>
   <form>
-    <table  class="groove">
-        <tr class="tableStyle">
+    <table>
+        <tr class="top" style="height: 50px">
             <th colspan="7" style="color: blue">Tháng 10 - October</th>
         </tr>
-        <tr bgcolor="orange" style="color :white"  class="groove">
+        <tr bgcolor="orange" style="color :white" style="border-color: #dddddd">
             <td bgcolor="red">C.Nhật</td>
             <td>T.Hai</td>
             <td>T.Ba</td>
@@ -58,7 +64,7 @@
             <td>7<sub>19</sub></td>
             <td>8<sub>20</sub></td>
             <td>9<sub>21</sub></td>
-            <td style="color: blue">10<sub style="color: black">22</sub></td>
+            <td style="color: blue">10<sub style="color: black" >22</sub></td>
         </tr>
         <tr>
             <td style="color :red">11<sub style="color: black">23</sub></td>
